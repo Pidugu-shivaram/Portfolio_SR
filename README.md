@@ -25,6 +25,8 @@ This repository contains the source code for my personal portfolio. It is design
 ## ✨ Key Features
 
 * **Interactive WebGL Background:** A dynamic, physics-based particle system that reacts to mouse movement and scroll velocity.
+* **Custom Preloader (`preloader.js`):** Ensures all high-fidelity assets and fonts are fully loaded before revealing the DOM, preventing flashes of unstyled content.
+* **Interactive Hero Elements (`heroObject.js`):** Dedicated logic for handling specialized 3D objects or animations within the initial landing view.
 * **Custom Tech Cursor:** A specialized `< />` cursor that tracks the mouse and seamlessly expands into framing brackets when interacting with clickable elements.
 * **Liquid Image Shaders:** Project thumbnails utilize custom GLSL shaders (Vertex and Fragment) to warp and bend based on the user's scroll speed and hover state.
 * **Fully Responsive:** Fluid typography and layout adjustments ensure the experience degrades gracefully on mobile devices, converting complex hover states into touch-friendly interactions.
@@ -37,22 +39,13 @@ If you want to run this project on your local machine, follow these steps:
    ```bash
    git clone [https://github.com/Pidugu-shivaram/Portfolio_SR.git](https://github.com/Pidugu-shivaram/Portfolio_SR.git)
 
-   ## 💻 Running Locally
-
-If you want to run this project on your local machine, follow these steps:
-
-1. **Navigate to the directory:**
-   ```bash
    cd Portfolio_SR
 
    npm install
 
-
    npm run dev
 
-Open http://localhost:5173 in your browser.
-
-
+   Open http://localhost:5173 in your browser.
 
 📬 Contact
 Email: pidugushivaram@gmail.com
